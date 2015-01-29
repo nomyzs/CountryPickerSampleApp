@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="72dp"
+        android:padding="0dp">
+
+        <ImageView
+            android:id="@+id/row_country_code_flag"
+            android:layout_width="@dimen/h_list_icon_size"
+            android:layout_height="@dimen/h_list_icon_size"
+            android:layout_marginLeft="@dimen/margin_master_left"
+            android:layout_centerVertical="true" />
+
+        <TextView
+            android:textSize="16sp"
+            android:id="@+id/row_country_code_name"
+            android:layout_width="wrap_content"
+            android:textColor="#000"
+            android:layout_alignParentLeft="true"
+            android:layout_toLeftOf="@+id/row_country_code_code"
+            android:layout_marginLeft="@dimen/country_code_name_marging_left"
+            android:layout_centerVertical="true"
+            android:layout_height="wrap_content" />
+
+    </RelativeLayout>
+
+    <View
+        android:id="@+id/row_contact_bottom_divider"
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_marginLeft="@dimen/key_line"
+        android:layout_gravity="bottom"
+        android:padding="0dp"
+        android:background="#ccc" />
+</LinearLayout>

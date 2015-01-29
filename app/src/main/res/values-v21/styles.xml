@@ -1,0 +1,13 @@
+<resources>
+
+
+    <style name="Button" parent="Theme.AppCompat.Light">
+        <item name="colorControlHighlight">@color/gray_button_highlight</item>
+    </style>
+
+    <style name="Button.Background" parent="Widget.AppCompat.ActionButton">
+        <item name="android:background">?attr/selectableItemBackground</item>
+    </style>
+
+    <color name="gray_button_highlight">#33000000</color>
+</resources>
